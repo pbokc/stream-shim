@@ -6,3 +6,4 @@ prometheus_client
 python-dotenv
 pydantic
 tiktoken
+rich<14,>=10.14.0
