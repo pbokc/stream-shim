@@ -2,7 +2,7 @@ import json
 import httpx
 from fastapi import HTTPException
 from typing import AsyncIterator, List, Dict
-from .base import Provider
+from .provider import Provider
 from config import UPSTREAM_TIMEOUT_S
 
 OLLAMA_URL = "http://127.0.0.1:11434/api/chat"

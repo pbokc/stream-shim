@@ -1,6 +1,6 @@
 import httpx
 from fastapi import HTTPException
-from .base import Provider
+from .provider import Provider
 from config import UPSTREAM_URL, UPSTREAM_TIMEOUT_S
 
 
